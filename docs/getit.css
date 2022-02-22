@@ -27,6 +27,24 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+
+.appbar{
+  background-color: #f7d736 ;
+  box-shadow: 0 0.3rem 0.4rem rgba(0,0,0,0.3), 0 0.3rem 0.4rem rgba(0,0,0,0.3);
+}
+
+.logo{
+  width: auto;
+  max-width: 20%;
+  height: 3rem;
+  margin: 0.5rem;
+}
+
+.subtitle{
+  text-align: center;
+  vertical-align: 1.5rem;
+}
+
 .form-card {
   background: #fff;
   border-radius: 0.3rem;
@@ -66,15 +84,6 @@ body {
   background-color: #f7d736;
   box-shadow: 0 0.2rem 0.2rem rgba(0,0,0,0.19), 0 0.2rem 0.2rem rgba(0,0,0,0.23);
 }
-
-
-
-
-
-
-
-
-
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
