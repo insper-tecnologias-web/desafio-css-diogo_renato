@@ -84,7 +84,6 @@ body {
 .btn {
   height: 2rem;
   margin: 0.5rem;
-  
   border-radius: 0.3rem;
   border: 0;
   background-color: #f7d736;
@@ -92,19 +91,37 @@ body {
 }
 
 .card-container{
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0.2rem;
+  background-color: aqua;
+  font-family: 'Permanent Marker', cursive;
+  width: 12.5rem;
+  height: 7rem;
+  border-radius: 0.5rem;
 
 }
 
 .card-title{
-
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0 0.7rem 0 0.7rem;
 }
 
 .card-content{
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+  margin: 0.1rem 0.7rem 0.1rem 0.7rem;
 }
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
