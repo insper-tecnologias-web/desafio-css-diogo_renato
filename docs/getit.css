@@ -22,6 +22,8 @@ Algumas informações úteis e dicas:
   - Sombra: https://codepen.io/sdthornton/pen/wBZdXq
  */
 
+ 
+
 html,
 body {
   font-family: "Roboto", sans-serif;
@@ -99,9 +101,11 @@ body {
 .card{
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  position: relative;
   margin: 0.2rem;
-  background-color: aqua;
+  background-color: #ead3a7;
   font-family: 'Permanent Marker', cursive;
   width: 12.5rem;
   height: 7rem;
@@ -110,18 +114,27 @@ body {
 }
 
 .card-title{
+  position: absolute;
+  top: 0.5rem;
+  left: 0.9rem;
   font-weight: bold;
   font-size: 1rem;
-  margin: 0 0.7rem 0 0.7rem;
+  color: #2c2c2c;
 }
 
 .card-content{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:12.5rem;
+  height:7rem;
+}
+
+.card-content p{
+  position: absolute;
+  margin: 0.9rem 0.9rem 0 0.9rem;
   font-size: 0.75rem;
-  margin: 0.1rem 0.7rem 0.1rem 0.7rem;
+  color: #4c4c4c;
 }
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
