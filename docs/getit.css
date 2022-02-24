@@ -129,7 +129,9 @@ body {
 .card-container{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  justify-content:space-evenly;
 }
 
 .card{
@@ -229,7 +231,6 @@ body {
 }
 
 .card-content p{
-  position: absolute;
   margin: 2rem 0.9rem 0 0.9rem;
   font-size: 0.8rem;
   color: #4c4c4c;
