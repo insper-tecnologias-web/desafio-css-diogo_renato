@@ -152,7 +152,7 @@ body {
   top: 0.5rem;
   left: 0.9rem;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #2c2c2c;
 }
 
@@ -166,8 +166,8 @@ body {
 
 .card-content p{
   position: absolute;
-  margin: 0.9rem 0.9rem 0 0.9rem;
-  font-size: 0.75rem;
+  margin: 2rem 0.9rem 0 0.9rem;
+  font-size: 0.8rem;
   color: #4c4c4c;
 }
 
