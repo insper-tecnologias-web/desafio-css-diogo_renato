@@ -147,6 +147,55 @@ body {
 
 }
 
+<<<<<<< Updated upstream
+=======
+
+.card-rotation-1{
+  transform: rotate(-3.1deg) ;
+}
+
+.card-rotation-2{
+  transform: rotate(-2.9deg);
+}
+
+.card-rotation-3{
+  transform: rotate(-2.7deg);
+}
+
+.card-rotation-4{
+  transform: rotate(-2.5deg);
+}
+
+.card-rotation-5{
+  transform: rotate(-2.3deg);
+}
+
+.card-rotation-6{
+  transform: rotate(-2deg);
+}
+
+.card-rotation-7{
+  transform: rotate(2deg);
+}
+
+.card-rotation-8{
+  transform: rotate(2.3deg);
+}
+
+.card-rotation-9{
+  transform: rotate(2.5deg);
+}
+
+.card-rotation-10{
+  transform: rotate(2.7deg);
+}
+
+.card-rotation-11{
+  transform: rotate(3deg);
+}
+
+
+>>>>>>> Stashed changes
 .card-title{
   position: absolute;
   top: 0.5rem;
