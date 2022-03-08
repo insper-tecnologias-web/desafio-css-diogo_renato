@@ -4,7 +4,8 @@ DUPLA:
 
 - Diogo dos Reis Duarte
 - Renato Laffranchi Falcão
-- Link do GitHub Pages: https://github.com/insper-tecnologias-web/desafio-css-diogo_renato
+- Link do GitHub Pages: https://insper-tecnologias-web.github.io/desafio-css-diogo_renato/
+Obs: Atualizado após a data de entrega, mas informei a professora Bárbara.
 
 ## Desafio CSS
 
